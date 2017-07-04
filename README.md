@@ -1,1 +1,3 @@
-# LeetCode \n algorithm trainning
+# LeetCode 
+
+algorithm trainning
