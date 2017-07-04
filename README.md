@@ -1,0 +1,1 @@
+# LeetCode \n algorithm trainning
