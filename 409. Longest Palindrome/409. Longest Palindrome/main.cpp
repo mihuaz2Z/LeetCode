@@ -54,7 +54,6 @@ public:
         int result = 0;
         int flag_single = 0;
         while (s.size() >= 1 ) {
-            cout <<"总数："<<s.size()<<endl;
             char temp = s[0];
             vector<int> deleteArray;
             deleteArray.push_back(0);
@@ -67,30 +66,24 @@ public:
             if (deleteArray.size()>1) {
                 if (deleteArray.size()%2 == 0) {
                     result += deleteArray.size();
-                    cout <<"偶数"<<" "<<deleteArray.size()<<endl;
                 }
                 else {
                     flag_single = 1;
                     result += deleteArray.size()-1;
-                    cout <<"奇数"<<" "<<deleteArray.size()<<endl;
                 }
             }
             else {
                 flag_single = 1;
             }
             
-            cout <<"delete:";
             for (int i = (int)deleteArray.size()-1; i >= 0 ; i --) {
-                cout <<deleteArray[i]<<" ";
                 s.erase(deleteArray[i],1);
             }
-            cout <<endl;
             
             deleteArray.clear();
         }
         
         result += flag_single;
-        cout <<"result:"<<result<< endl;
         return result;
     }
 };
@@ -99,6 +92,7 @@ int main(int argc, const char * argv[]) {
     
     Solution * solution = new Solution();
     string *ca = new string("abababab");
-    solution->longestPalindrome(*ca);
+    int result = solution->longestPalindrome(*ca);
+    cout << result <<endl;
     return 0;
 }
