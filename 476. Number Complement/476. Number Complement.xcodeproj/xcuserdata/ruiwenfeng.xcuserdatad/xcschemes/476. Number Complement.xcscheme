@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E7676F41F0C98310068483E"
-               BuildableName = "535. Encode and Decode TinyURL"
-               BlueprintName = "535. Encode and Decode TinyURL"
-               ReferencedContainer = "container:535. Encode and Decode TinyURL.xcodeproj">
+               BlueprintIdentifier = "4E7677071F0CD2250068483E"
+               BuildableName = "476. Number Complement"
+               BlueprintName = "476. Number Complement"
+               ReferencedContainer = "container:476. Number Complement.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E7676F41F0C98310068483E"
-            BuildableName = "535. Encode and Decode TinyURL"
-            BlueprintName = "535. Encode and Decode TinyURL"
-            ReferencedContainer = "container:535. Encode and Decode TinyURL.xcodeproj">
+            BlueprintIdentifier = "4E7677071F0CD2250068483E"
+            BuildableName = "476. Number Complement"
+            BlueprintName = "476. Number Complement"
+            ReferencedContainer = "container:476. Number Complement.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E7676F41F0C98310068483E"
-            BuildableName = "535. Encode and Decode TinyURL"
-            BlueprintName = "535. Encode and Decode TinyURL"
-            ReferencedContainer = "container:535. Encode and Decode TinyURL.xcodeproj">
+            BlueprintIdentifier = "4E7677071F0CD2250068483E"
+            BuildableName = "476. Number Complement"
+            BlueprintName = "476. Number Complement"
+            ReferencedContainer = "container:476. Number Complement.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E7676F41F0C98310068483E"
-            BuildableName = "535. Encode and Decode TinyURL"
-            BlueprintName = "535. Encode and Decode TinyURL"
-            ReferencedContainer = "container:535. Encode and Decode TinyURL.xcodeproj">
+            BlueprintIdentifier = "4E7677071F0CD2250068483E"
+            BuildableName = "476. Number Complement"
+            BlueprintName = "476. Number Complement"
+            ReferencedContainer = "container:476. Number Complement.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
