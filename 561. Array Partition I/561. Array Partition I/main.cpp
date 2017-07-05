@@ -6,6 +6,18 @@
 //  Copyright © 2017年 Ruiwen Feng. All rights reserved.
 //
 
+
+/*
+ 
+ //居然看不懂答案。。我也是醉了。
+ 答案O(n)的时间复杂度简直碉堡了。。
+ 
+ 我这个手写了了一个快速排序，然后取偶数位的数相加。。相形见绌。。
+ 
+ 
+ */
+
+
 #include <iostream>
 #include <vector>
 
@@ -16,12 +28,12 @@ class Solution {
 public:
     
     int partition(vector<int> *nums,int low,int high) {
-        int privotKey = (*nums)[low];                                 //基准元素
-        while(low < high){                                            //从表的两端交替地向中间扫描
-            while(low < high  && (*nums)[high] >= privotKey ) --high;  //将比基准元素小的交换到低端
+        int privotKey = (*nums)[low];
+        while(low < high){
+            while(low < high  && (*nums)[high] >= privotKey ) --high;
             swap((*nums)[low], (*nums)[high]);
             
-            while(low < high  && (*nums)[low] <= privotKey ) ++low; //将比基准元素大的交换到高处
+            while(low < high  && (*nums)[low] <= privotKey ) ++low;
             swap((*nums)[low], (*nums)[high]);
         }
         return low;
